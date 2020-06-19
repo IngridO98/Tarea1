@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
         EditText Telefono = (EditText) findViewById(R.id.txtTelefonomain1);
 
 
-            if(rdm.isChecked()==true)
+            if(rdf.isChecked()==true)
                 Generosel="Femenino";
-            else if(rdf.isChecked()==true)
+            else if(rdm.isChecked()==true)
                 Generosel="Masculino";
             else
                 Generosel="Nada";
